@@ -20,5 +20,4 @@ while i <= 10:
         print("Верно" if input("Question 9: ") == "90" else "Неверно")
     elif i == 10:
         print("Верно" if input("Question 10: ") == "100" else "Неверно")
-    i = i + 1
 
