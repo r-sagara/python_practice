@@ -1,23 +1,31 @@
 i = 1
-while i <= 10:
+right_answers = 0
+answer = ""
+while i < 10:
     if i == 1:
-        print("Верно" if input("Question 1: ") == "10" else "Неверно")
+        answer = "Right" if input("Question 1: ").lower() == "10" else "Wrong"
     elif i == 2:
-        print("Верно" if input("Question 2: ") == "20" else "Неверно")
+        answer = "Right" if input("Question 1: ").lower() == "10" else "Wrong"
     elif i == 3:
-        print("Верно" if input("Question 3: ") == "30" else "Неверно")
+        answer = "Right" if input("Question 1: ").lower() == "10" else "Wrong"
     elif i == 4:
-        print("Верно" if input("Question 4: ") == "40" else "Неверно")
+        answer = "Right" if input("Question 1: ").lower() == "10" else "Wrong"
     elif i == 5:
-        print("Верно" if input("Question 5: ") == "50" else "Неверно")
+        answer = "Right" if input("Question 1: ").lower() == "10" else "Wrong"
     elif i == 6:
-        print("Верно" if input("Question 6: ") == "60" else "Неверно")
+        answer = "Right" if input("Question 1: ").lower() == "10" else "Wrong"
     elif i == 7:
-        print("Верно" if input("Question 7: ") == "70" else "Неверно")
+        answer = "Right" if input("Question 1: ").lower() == "10" else "Wrong"
     elif i == 8:
-        print("Верно" if input("Question 8: ") == "80" else "Неверно")
+        answer = "Right" if input("Question 1: ").lower() == "10" else "Wrong"
     elif i == 9:
-        print("Верно" if input("Question 9: ") == "90" else "Неверно")
+        answer = "Right" if input("Question 1: ").lower() == "10" else "Wrong"
     elif i == 10:
-        print("Верно" if input("Question 10: ") == "100" else "Неверно")
+        answer = "Right" if input("Question 1: ").lower() == "10" else "Wrong"
+    i = i + 1
+    print(answer)
+    if answer == "Right":
+        right_answers += 1
+print("You gave {} answers".format(right_answers))
+
 
